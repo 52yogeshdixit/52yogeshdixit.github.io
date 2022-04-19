@@ -1,0 +1,7 @@
+f6 = open("demo.txt","r")
+f7 = open("demo1.txt","a")
+a = f6.read()
+f7.write("\n"+a)
+print("Content has been copied")
+f6.close()
+f7.close()

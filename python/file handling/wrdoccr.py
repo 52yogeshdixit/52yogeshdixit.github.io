@@ -1,0 +1,10 @@
+f5 = open("demo.txt","r")
+a = f5.readline()
+print(a,end="")
+b = a.split()
+print(b)
+c = b.count(b[1])
+print("Word :",b[1],"Count :",c)
+dct = {wrd:a.count(wrd) for wrd in a.split()}
+print(dct)
+f5.close()

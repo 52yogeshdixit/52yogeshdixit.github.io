@@ -1,0 +1,9 @@
+File "C:/Users/GLAU/AppData/Local/Programs/Python/Python310/yogesh/file handling/wrdoccr.py", line 4, in <module>
+b = a.split()
+AttributeError: 'list' object has no attribute 'split'
+
+This is a demo file.
+This is the second line.
+This is third line.
+This is fourth line.
+This is a appened line.

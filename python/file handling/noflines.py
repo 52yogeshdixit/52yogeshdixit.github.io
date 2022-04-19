@@ -1,0 +1,5 @@
+f3 = open("demo.txt","r")
+a = f3.readlines()
+c = len(a)
+print("The no. of lines in the file are :",c)
+f3.close()
